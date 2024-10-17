@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">11</div>
+        <div class="item2">22</div>
+        <div class="item3">33</div>
+        <div class="item4">44</div>
+        <div class="item5">55</div>
+        <div class="item6">66</div>
+        <div class="item7">77</div>
+        <div class="item8">79</div>
+        <div class="item9">99</div>
+        <div class="item10">100</div>
+        <div class="item11">1</div>
+        <div class="item12">2</div>
+       
+    
+       
+    </div>
+    
+</body>
+</html>
+
+<style>
+ .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ; /* width of columns */
+    gap: 10px; /* row-gap & column-gap */
+    background-color: purple;
+    padding: 10px;
+}
+
+.item3 {
+  grid-row-start: 1; 
+  grid-column-start: 2; 
+  grid-row-end: 4; 
+  grid-column-end: 5; 
+  align-content: center;
+
+}
+
+/*targets <div> element that is direct children of class grid-container.*/
+.grid-container>div { 
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>

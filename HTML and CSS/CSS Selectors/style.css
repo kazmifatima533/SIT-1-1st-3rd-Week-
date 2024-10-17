@@ -1,0 +1,29 @@
+/* Universal Selector */
+*{
+    background-color: palevioletred;
+    color: black;
+}
+
+/* Elelment Selector */
+p{
+    background-color: brown;
+    color: beige;
+}
+
+/* ID Selector */
+#para1{ background-color: chocolate;
+        color: black;
+}
+
+/* Class Selector */
+.center{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+
+/* Class Selector Using Two Classes */
+.right.large{
+    text-align:right;
+font-size: 150%;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initPial-scale=1.0">
+    <title>List and Table</title>
+</head>
+
+<body>
+    <h2>University Programs</h2>
+    <hr>
+    <ul type="square">
+        <li>BSIET</li>
+        <li>BSCS</li>
+        <li>BSSE</li>
+        <li>BBA</li>
+    </ul><br>
+
+    <ol>
+        <li>BSIET</li>
+        <li>BSCS</li>
+        <li>BSSE</li>
+        <li>BBA</li>
+    </ol>
+
+    <ol type="i">
+        <li>BSIET</li>
+        <li>BSCS</li>
+        <li>BSSE</li>
+        <li>BBA</li>
+    </ol>
+    <br>
+    
+    <head>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid rgb(61, 4, 47);
+                border-collapse: collapse; 
+            } <!--Shared border-->
+        </style>
+    </head>
+    
+    <body>
+    
+        <h2>Row Span</h2>
+        <hr>
+        <br>
+    
+        <table style="width:100%">
+            <tr>
+                <th>Age</th>
+                <td>22</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Name</th>
+                <td>Syeda</td>
+            </tr>
+            <tr>
+                <td>Fatima</td>
+            </tr>
+             <caption>To make a cell span more than one row, use the rowspan attribute.</caption>       
+            </table>
+
+            <br>
+                <style>
+                    table,
+                    th,
+                    td {
+                        border: 1px solid black;
+                        border-collapse: collapse;
+                    }
+                </style>
+            </head>
+            
+            <body>
+            
+                <h2>Col Span</h2>
+                <hr>
+                <br>
+                
+            
+                <table style="width:100%">
+                    <tr>
+                        <th colspan="2">Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Fatima</td>
+                        <td>Kazmi</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>Syeda</td>
+                        <td>Shah</td>
+                        <td>57</td>
+                    </tr>
+
+                    <caption>To make a cell span more than one column, use the colspan attribute</caption>
+                </table>
+            </body>
+            
+            </html>
+
+    </body>
+    
+    </html>

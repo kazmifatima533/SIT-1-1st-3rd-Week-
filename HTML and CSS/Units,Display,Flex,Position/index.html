@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex; /* enables flexbox layout for flexible and efficient alignment of items */
+            width: 100vw; /* sets the container width to 100% of the viewport width */
+            height: 50vh; /* sets the container height to 50% of the viewport height */
+            background-color:rgb(124, 83, 124); /* background color of the container */
+            flex-direction: row; /* aligns flex items in a row */
+            flex-wrap: wrap; /* allows items to wrap onto the next line if necessary */
+            justify-content: center; /* centers items horizontally */
+            position: absolute; /* positions container relative to its normal position */
+        }
+        .items1 {
+            background-color: pink; 
+            height: 200px; /* height of the first item */
+            width: 200px; /* width of the first item */
+            border: 2px solid; /* solid border around the first item */
+        }
+        .items2 {
+            background-color: lightblue; 
+            height: 200px; 
+            width: 200px;
+            border: 2px solid; 
+            margin: 10px; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="items1">item 1</div>
+    <div class="items2">item 2</div>
+    <div class="items2">item 3</div>
+    <div class="items3">item 4</div>
+    <div class="items4">item 5</div>
+    <div class="items5">item 6</div>
+</div>
+
+<footer>
+    footer
+</footer>
+
+</body>
+</html>

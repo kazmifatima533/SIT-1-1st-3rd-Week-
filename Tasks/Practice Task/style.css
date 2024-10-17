@@ -1,0 +1,97 @@
+body {
+    margin: 0;/* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url("./bg.png");
+    background-repeat: no-repeat;
+    background-size: 1500px 640px;
+    background-position: center;/* Center the background image */
+    background-attachment: fixed;/* Image stays fixed when scrolling */
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+
+nav {
+    display: flex; /* Align elements horizontally */
+    align-items: center;
+    background-color: white;
+}
+
+#logo {
+    height: 60px; /* Set logo height */
+    margin-right: 5px;/* Space between logo and nav items */
+}
+
+li {
+    display: inline-block;/* Allows the element to sit next to others while maintaining block characteristics */
+    margin-top: 0px;/* Adds space above the element */
+    margin-right: 30px;
+    text-decoration:none;
+    text-transform: capitalize;
+    font-family: default;
+    font-size: medium;
+    font-style: normal;
+    font-weight: medium;
+    
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 60px; 
+    text-decoration: bold;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    text-decoration: bold;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+footer {
+    padding-bottom: 0px;
+    padding: 70px;
+    margin-top: 0px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    
+}
+
+input{
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+   
+    padding-left: 30px;
+  /*  border: 2px solid grey;*/
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    flex-direction: right;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+}
+
+.search {   height: 20px;
+        width: 30px;
+        border: 2px solid grey;
+        padding: 6px;
+}
+

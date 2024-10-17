@@ -1,0 +1,17 @@
+h2 {
+    color: brown;
+
+}
+
+p2 {
+    color: black;
+
+}
+
+body {
+    background-image: url("./cat.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+    background-position: top right;
+    background-attachment: local; /*background image will scroll with the element's contents*/
+    }

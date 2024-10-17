@@ -1,0 +1,24 @@
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-width: 5px;
+    border-color: black;
+    border-style: dotted; /*dotted border*/
+    border-radius: 5px; /* Add rounded corners*/
+    border: 10px solid black; /* Black border ,width = thickness*/
+    padding-top: 30px; /* Clears an area around the content. */
+    padding : 30px 20px 10px 40px; /* Controls space in top,bottom,left,right borders */
+    margin-top: 30px; /*Clears an area outside the border.*/
+    margin: 50px;
+}
+
+.box2{
+    background-color: purple;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 20px;
+}
+
